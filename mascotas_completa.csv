@@ -1,0 +1,501 @@
+id;nombre;especie;edad;vacunacion_al_dia;departamento;ciudad;direccion;estado_salud;ultima_revision;Gasto última consulta;Camtidad de consultas 2023;Camtidad de consultas 2024;Camtidad de consultas 2025
+1;Daisy;Ave;13;f;Magdalena;Cartagena;Calle 60 # 10-33;Saludable;30/05/2025;380000;24;11;0
+2;Rocky;Ave;15;t;Cundinamarca;Barranquilla;Calle 94 # 32-30;Saludable;17/01/2026;78000;1;21;20
+3;Bella;Conejo;5;f;Boyaca;Barranquilla;Calle 17 # 48-38;Saludable;29/04/2025;142000;23;0;5
+4;Milo;Conejo;16;t;Valle del Cauca;Barranquilla;Calle 51 # 7-29;Saludable;17/01/2026;494000;18;27;30
+5;Milo;Conejo;4;f;Tolima;Ibague;Calle 55 # 14-17;Saludable;22/04/2025;152000;23;19;26
+6;Coco;Pez;3;f;Cundinamarca;Barranquilla;Calle 59 # 33-14;Saludable;19/06/2025;241000;29;6;7
+7;Coco;Pez;13;t;Magdalena;Tunja;Calle 49 # 7-45;Enfermo;1/01/2026;94000;4;26;28
+8;Daisy;Gato;11;f;Cundinamarca;Cali;Calle 50 # 18-1;Saludable;24/05/2025;160000;22;13;8
+9;Max;Ave;15;t;Atlantico;Bogota;Calle 95 # 42-40;Saludable;17/03/2026;379000;25;16;16
+10;Max;Gato;5;t;Magdalena;Medellin;Calle 10 # 7-2;Saludable;7/11/2025;413000;27;25;29
+11;Rocky;Conejo;16;f;Magdalena;Ibague;Calle 6 # 21-41;Saludable;8/04/2026;376000;22;7;10
+12;Daisy;Pez;3;t;Boyaca;Ibague;Calle 52 # 12-44;Saludable;20/10/2025;180000;7;18;18
+13;Simba;Perro;7;t;Risaralda;Cartagena;Calle 85 # 6-31;Enfermo;7/10/2025;153000;11;12;28
+14;Luna;Pez;9;f;Bolivar;Santa Marta;Calle 72 # 26-38;Saludable;9/10/2025;475000;29;10;22
+15;Milo;Pez;15;t;Tolima;Cali;Calle 12 # 16-33;Enfermo;31/07/2025;258000;29;2;19
+16;Coco;Conejo;11;t;Magdalena;Ibague;Calle 14 # 42-36;Enfermo;2/11/2025;86000;27;0;15
+17;Rocky;Ave;8;f;Cundinamarca;Tunja;Calle 67 # 12-40;Saludable;12/12/2025;167000;13;9;22
+18;Charlie;Pez;3;t;Risaralda;Cali;Calle 29 # 3-17;Saludable;20/06/2025;343000;26;18;30
+19;Charlie;Conejo;10;t;Bolivar;Bogota;Calle 25 # 25-30;Saludable;24/08/2025;146000;20;24;29
+20;Simba;Conejo;7;f;Antioquia;Bogota;Calle 72 # 13-23;Enfermo;25/08/2025;219000;10;30;2
+21;Bella;Conejo;8;t;Atlantico;;Calle 76 # 3-35;Saludable;18/03/2026;137000;15;0;13
+22;Buddy;Pez;12;t;Atlantico;Barranquilla;Calle 17 # 2-34;Saludable;10/10/2025;430000;15;29;12
+23;Charlie;Gato;11;f;Cundinamarca;Santa Marta;Calle 59 # 39-11;Saludable;1/05/2025;366000;15;2;3
+24;Buddy;Ave;5;t;;Ibague;Calle 76 # 20-23;Saludable;19/07/2025;445000;18;16;16
+25;Buddy;Gato;2;t;Cundinamarca;Santa Marta;Calle 22 # 49-7;Saludable;11/01/2026;61000;6;20;24
+26;Simba;Gato;2;t;Tolima;Medellin;Calle 55 # 17-29;Saludable;19/03/2026;290000;0;10;21
+27;Bella;Ave;15;f;Boyaca;;Calle 51 # 10-5;Saludable;25/01/2026;289000;5;21;19
+28;Rocky;Perro;14;f;Boyaca;Cartagena;Calle 3 # 50-6;Enfermo;24/06/2025;68000;28;25;12
+29;Milo;;9;t;Bolivar;Santa Marta;Calle 12 # 47-32;Saludable;12/05/2025;291000;20;2;8
+30;Charlie;Gato;2;f;Boyaca;Bogota;Calle 4 # 24-7;Saludable;28/04/2025;450000;2;14;1
+31;Rocky;Gato;15;t;Valle del Cauca;Cartagena;Calle 28 # 24-31;Saludable;4/04/2026;361000;10;5;29
+32;Simba;Gato;10;f;Atlantico;Santa Marta;Calle 38 # 3-20;Saludable;26/01/2026;467000;0;13;12
+33;Simba;Gato;5;t;Antioquia;Cali;Calle 30 # 47-38;Enfermo;29/08/2025;262000;11;8;25
+34;Simba;;2;f;Tolima;;Calle 93 # 33-32;Enfermo;25/04/2025;295000;8;0;27
+35;Milo;Pez;15;f;Cundinamarca;Pereira;Calle 5 # 30-32;Saludable;17/06/2025;473000;5;28;4
+36;Coco;Perro;9;t;Santander;Barranquilla;Calle 28 # 2-35;Saludable;17/05/2025;174000;21;26;3
+37;Luna;Gato;6;f;Risaralda;Pereira;Calle 20 # 34-21;Saludable;16/08/2025;179000;15;28;2
+38;Charlie;Gato;7;t;Santander;Medellin;Calle 33 # 32-12;Saludable;14/07/2025;424000;27;16;24
+39;Bella;Pez;12;t;Boyaca;Cartagena;Calle 19 # 3-34;Saludable;5/03/2026;260000;21;11;3
+40;Max;Conejo;7;t;Valle del Cauca;Ibague;Calle 52 # 13-9;Enfermo;11/10/2025;152000;24;21;26
+41;Buddy;Perro;11;t;;Ibague;Calle 48 # 32-25;Enfermo;17/03/2026;73000;10;23;30
+42;Buddy;Ave;12;f;Magdalena;Bogota;Calle 99 # 21-39;Enfermo;30/03/2026;356000;23;24;7
+43;Coco;;6;t;Atlantico;Ibague;Calle 76 # 9-43;Saludable;24/09/2025;387000;21;18;15
+44;Simba;Gato;2;f;Antioquia;Tunja;Calle 20 # 38-38;Enfermo;19/11/2025;74000;5;0;26
+45;Rocky;Perro;4;f;Boyaca;Cartagena;Calle 77 # 3-46;Enfermo;31/01/2026;69000;8;28;25
+46;Coco;Gato;11;t;Magdalena;Bucaramanga;Calle 17 # 46-42;Saludable;19/04/2025;177000;25;27;29
+47;Buddy;Pez;10;t;Valle del Cauca;Bucaramanga;Calle 65 # 15-7;Saludable;26/08/2025;351000;11;29;11
+48;Buddy;Pez;4;t;Risaralda;Cali;Calle 58 # 11-32;Saludable;18/08/2025;404000;3;8;10
+49;Charlie;Conejo;15;t;Santander;Pereira;Calle 6 # 45-44;Enfermo;4/06/2025;234000;21;23;29
+50;Rocky;Conejo;8;f;Valle del Cauca;Ibague;Calle 101 # 15-26;Saludable;26/12/2025;361000;14;28;24
+51;Bella;Gato;11;t;Magdalena;Bogota;Calle 67 # 35-25;Saludable;30/01/2026;87000;0;25;12
+52;Milo;Conejo;5;t;Bolivar;Cartagena;Calle 66 # 11-37;Saludable;13/08/2025;483000;25;9;0
+53;Rocky;Ave;11;f;Valle del Cauca;Santa Marta;Calle 59 # 31-28;Enfermo;3/10/2025;253000;21;14;20
+54;Buddy;Ave;5;t;Tolima;Cali;Calle 29 # 44-17;Enfermo;24/10/2025;403000;27;9;1
+55;Simba;Perro;14;t;Bolivar;Bucaramanga;Calle 35 # 48-34;Saludable;7/10/2025;460000;25;13;11
+56;;Perro;4;t;;Barranquilla;Calle 7 # 14-49;Saludable;27/04/2025;334000;13;18;4
+57;Coco;Ave;16;f;Atlantico;Ibague;Calle 62 # 33-47;Saludable;23/08/2025;200000;16;0;13
+58;Max;Perro;3;f;Bolivar;Ibague;Calle 70 # 18-27;Saludable;28/05/2025;309000;9;13;0
+59;Buddy;Perro;7;f;Cundinamarca;Medellin;Calle 77 # 17-27;Saludable;20/08/2025;450000;17;0;1
+60;Max;Conejo;12;f;Bolivar;Bogota;Calle 59 # 18-39;Saludable;21/03/2026;198000;19;24;6
+61;Milo;Ave;7;f;Cundinamarca;Cali;Calle 4 # 42-15;Enfermo;18/09/2025;413000;16;3;19
+62;Daisy;Gato;8;f;Risaralda;;Calle 85 # 26-31;Saludable;15/07/2025;317000;6;11;22
+63;Simba;Gato;13;t;Magdalena;Ibague;Calle 50 # 28-8;Saludable;31/07/2025;468000;19;6;11
+64;Daisy;Conejo;7;t;Tolima;Tunja;Calle 28 # 28-50;Saludable;16/02/2026;111000;15;9;25
+65;Buddy;Pez;12;f;Boyaca;Bogota;Calle 73 # 24-50;Saludable;14/11/2025;244000;19;24;5
+66;Milo;Gato;11;t;Cundinamarca;Medellin;Calle 15 # 35-11;Saludable;7/06/2025;123000;16;4;18
+67;Milo;Conejo;7;f;Santander;Bogota;Calle 37 # 24-11;Saludable;21/08/2025;255000;8;13;21
+68;Simba;Ave;14;t;Boyaca;Cali;Calle 53 # 25-28;Saludable;26/07/2025;485000;1;18;23
+69;Coco;Pez;12;t;Boyaca;Tunja;Calle 75 # 39-40;Saludable;6/07/2025;455000;23;5;18
+70;Rocky;Gato;13;t;Boyaca;Cartagena;Calle 95 # 22-38;Saludable;7/11/2025;190000;4;29;24
+71;Coco;Pez;8;f;Cundinamarca;Cali;Calle 49 # 36-42;Saludable;24/03/2026;125000;1;28;24
+72;Buddy;Conejo;6;t;;Pereira;Calle 16 # 36-49;Saludable;15/03/2026;287000;18;12;3
+73;Daisy;Conejo;8;f;Atlantico;Cali;Calle 101 # 8-16;Enfermo;30/12/2025;486000;1;17;13
+74;Max;Ave;10;t;Santander;Cali;Calle 78 # 20-8;Enfermo;3/02/2026;134000;28;15;22
+75;Bella;Ave;11;t;Cundinamarca;Medellin;Calle 56 # 30-9;Saludable;17/11/2025;67000;2;18;9
+76;Coco;Pez;8;t;Tolima;Pereira;Calle 5 # 37-16;Saludable;1/05/2025;253000;20;1;28
+77;Buddy;Ave;5;t;Risaralda;Barranquilla;Calle 90 # 7-45;Saludable;15/04/2025;450000;23;29;24
+78;Rocky;Perro;3;t;Tolima;Barranquilla;Calle 77 # 9-2;Saludable;22/02/2026;248000;15;11;9
+79;Luna;Conejo;1;t;Atlantico;Bucaramanga;Calle 40 # 10-42;Saludable;13/02/2026;390000;19;3;0
+80;Charlie;Pez;3;t;Valle del Cauca;Santa Marta;Calle 83 # 10-32;Saludable;7/07/2025;464000;29;12;20
+81;Milo;Perro;2;f;Valle del Cauca;Santa Marta;Calle 30 # 34-21;Saludable;22/03/2026;230000;24;18;24
+82;Simba;;7;t;Boyaca;Tunja;Calle 55 # 24-29;Saludable;9/02/2026;434000;10;21;17
+83;Charlie;Conejo;12;f;Magdalena;Cali;Calle 44 # 32-36;Saludable;11/03/2026;305000;25;9;20
+84;Bella;Conejo;6;f;Antioquia;;Calle 49 # 29-28;Saludable;22/06/2025;230000;18;30;7
+85;Charlie;Pez;12;f;Antioquia;Bucaramanga;Calle 32 # 19-26;Saludable;3/05/2025;470000;1;14;2
+86;Simba;Conejo;3;t;Risaralda;Bogota;Calle 20 # 35-3;Saludable;7/08/2025;55000;3;24;7
+87;Buddy;Perro;6;t;Risaralda;Cali;Calle 100 # 4-36;Saludable;7/07/2025;55000;16;28;18
+88;;Conejo;13;f;Valle del Cauca;Pereira;Calle 57 # 49-11;Saludable;28/02/2026;104000;5;9;1
+89;Bella;Gato;6;t;Tolima;Bogota;Calle 16 # 39-44;Saludable;25/03/2026;206000;11;6;9
+90;Rocky;Gato;2;f;Valle del Cauca;Medellin;Calle 83 # 27-13;Saludable;17/08/2025;406000;5;6;4
+91;Simba;Pez;6;f;Risaralda;Barranquilla;Calle 53 # 11-8;Enfermo;7/06/2025;416000;2;15;10
+92;Simba;Ave;7;t;Santander;Bogota;Calle 100 # 7-26;Saludable;28/09/2025;206000;1;12;7
+93;Coco;Ave;4;f;Tolima;Bogota;Calle 33 # 37-45;Saludable;24/11/2025;77000;0;14;7
+94;Bella;Gato;6;t;Cundinamarca;Bogota;Calle 9 # 26-41;Saludable;8/04/2026;410000;8;9;2
+95;Max;Ave;11;t;Tolima;Santa Marta;Calle 20 # 16-13;Saludable;18/08/2025;319000;25;25;6
+96;Bella;Perro;15;f;Risaralda;Bucaramanga;Calle 60 # 51-16;Saludable;26/02/2026;302000;3;14;23
+97;Charlie;Ave;8;t;Antioquia;Pereira;Calle 34 # 50-45;Saludable;24/12/2025;316000;29;17;22
+98;Charlie;;4;t;Atlantico;Bogota;Calle 65 # 10-32;Enfermo;14/10/2025;373000;21;21;17
+99;Simba;Ave;7;t;Magdalena;Bogota;Calle 43 # 43-12;Enfermo;25/06/2025;97000;10;22;19
+100;Rocky;Pez;14;t;Risaralda;Cali;Calle 35 # 40-4;Saludable;29/03/2026;57000;6;13;23
+101;Max;Conejo;12;f;Valle del Cauca;Cali;Calle 64 # 49-35;Saludable;22/12/2025;267000;13;8;18
+102;Charlie;Pez;15;f;Risaralda;;Calle 11 # 44-50;Enfermo;29/10/2025;313000;17;10;6
+103;Buddy;;11;f;Antioquia;Cali;Calle 17 # 44-23;Saludable;1/08/2025;64000;16;5;22
+104;Bella;Pez;13;t;Valle del Cauca;Cali;Calle 27 # 20-33;Saludable;25/10/2025;80000;7;7;1
+105;Buddy;Pez;7;f;Tolima;Ibague;Calle 8 # 2-40;Saludable;15/02/2026;301000;5;11;24
+106;Coco;Conejo;15;f;Risaralda;Cartagena;Calle 33 # 35-21;Saludable;30/08/2025;185000;5;27;29
+107;Luna;Perro;14;t;Boyaca;;Calle 51 # 4-39;Enfermo;24/11/2025;386000;15;28;10
+108;Daisy;Gato;13;f;Tolima;Bogota;Calle 92 # 40-27;Saludable;9/09/2025;175000;26;3;9
+109;Buddy;Ave;8;f;Magdalena;Medellin;Calle 64 # 15-4;Saludable;19/09/2025;366000;2;15;7
+110;Luna;Pez;7;f;Santander;Bucaramanga;Calle 74 # 35-50;Saludable;13/05/2025;478000;17;27;29
+111;Buddy;Pez;7;t;Atlantico;Bogota;Calle 72 # 38-4;Saludable;9/02/2026;117000;10;8;22
+112;Coco;;13;t;Tolima;Medellin;Calle 9 # 1-16;Saludable;29/11/2025;269000;20;10;4
+113;Charlie;Ave;12;f;;Tunja;Calle 9 # 46-49;Saludable;17/10/2025;334000;29;30;8
+114;Simba;Conejo;16;t;Boyaca;Cartagena;Calle 2 # 16-15;Saludable;30/10/2025;477000;25;24;16
+115;Buddy;Conejo;9;f;Boyaca;Medellin;Calle 48 # 17-46;Saludable;18/03/2026;401000;6;12;24
+116;Rocky;Perro;5;f;;Bogota;Calle 43 # 40-5;Enfermo;12/06/2025;372000;3;23;27
+117;Buddy;Pez;5;t;Magdalena;Barranquilla;Calle 83 # 24-37;Enfermo;8/09/2025;451000;21;24;11
+118;Charlie;Ave;5;f;Atlantico;Bucaramanga;Calle 57 # 46-36;Saludable;22/05/2025;380000;6;21;19
+119;Rocky;Conejo;14;f;Magdalena;Ibague;Calle 10 # 40-5;Saludable;27/02/2026;285000;23;7;12
+120;;Gato;13;t;Tolima;Pereira;Calle 34 # 45-46;Saludable;16/08/2025;170000;21;22;10
+121;Buddy;Pez;16;f;Boyaca;Cali;Calle 82 # 18-6;Enfermo;26/12/2025;152000;30;0;12
+122;Bella;Pez;2;t;Risaralda;Bogota;Calle 24 # 25-14;Saludable;1/07/2025;399000;28;3;27
+123;;Gato;12;f;Magdalena;Cali;Calle 91 # 21-14;Saludable;7/05/2025;446000;7;30;25
+124;Simba;Perro;12;t;Boyaca;Cali;Calle 74 # 16-32;Saludable;17/06/2025;477000;30;10;12
+125;Buddy;Gato;12;f;Valle del Cauca;Cartagena;Calle 59 # 29-11;Saludable;2/04/2026;425000;24;30;27
+126;Luna;Conejo;12;t;Risaralda;Ibague;Calle 3 # 36-32;Saludable;2/03/2026;248000;20;14;4
+127;Coco;Conejo;2;f;Risaralda;Tunja;Calle 26 # 15-19;Enfermo;23/01/2026;218000;21;14;1
+128;Simba;Conejo;1;t;Bolivar;Pereira;Calle 3 # 49-29;Enfermo;27/11/2025;442000;7;12;16
+129;Charlie;Gato;14;f;Valle del Cauca;Tunja;Calle 73 # 25-21;Enfermo;9/11/2025;161000;18;10;23
+130;Rocky;Conejo;13;t;Atlantico;Cali;Calle 53 # 24-4;Enfermo;3/10/2025;88000;13;18;26
+131;Buddy;Pez;12;t;Atlantico;Tunja;Calle 23 # 24-17;Saludable;6/03/2026;199000;2;1;26
+132;Luna;Pez;7;t;Tolima;Barranquilla;Calle 27 # 24-26;Saludable;19/12/2025;75000;25;7;14
+133;Daisy;;5;f;Atlantico;Cartagena;Calle 39 # 44-51;Saludable;5/05/2025;410000;20;24;14
+134;Milo;Gato;10;f;Risaralda;Bogota;Calle 90 # 25-31;Enfermo;7/04/2026;294000;15;21;8
+135;Coco;Gato;5;f;Boyaca;Bogota;Calle 87 # 24-7;Enfermo;14/12/2025;187000;24;22;15
+136;Charlie;Ave;6;f;Cundinamarca;Ibague;Calle 26 # 5-12;Enfermo;8/07/2025;129000;2;25;12
+137;;Ave;15;f;Santander;Pereira;Calle 10 # 1-9;Saludable;7/12/2025;276000;7;24;12
+138;;Pez;9;t;Boyaca;Bucaramanga;Calle 8 # 8-33;Enfermo;28/12/2025;321000;21;5;29
+139;Charlie;Pez;7;f;Valle del Cauca;Bucaramanga;Calle 93 # 51-39;Enfermo;22/04/2025;173000;8;19;24
+140;Buddy;Perro;10;t;Atlantico;Pereira;Calle 9 # 20-38;Enfermo;13/09/2025;150000;15;18;18
+141;Coco;Ave;2;f;Risaralda;Santa Marta;Calle 89 # 39-47;Enfermo;6/07/2025;315000;2;27;13
+142;Milo;Ave;3;f;Risaralda;Santa Marta;Calle 23 # 25-47;Enfermo;20/12/2025;409000;21;4;4
+143;Milo;Ave;6;f;Santander;Cartagena;Calle 92 # 8-5;Saludable;11/06/2025;464000;22;29;0
+144;Bella;Ave;15;f;Risaralda;Bogota;Calle 4 # 14-17;Saludable;27/08/2025;141000;26;11;25
+145;;Gato;12;t;Atlantico;Santa Marta;Calle 21 # 34-6;Enfermo;7/06/2025;365000;8;22;12
+146;Rocky;Gato;13;f;Valle del Cauca;Santa Marta;Calle 78 # 32-28;Saludable;29/04/2025;403000;23;8;7
+147;Bella;Conejo;1;f;Atlantico;Cali;Calle 50 # 11-28;Saludable;23/10/2025;78000;3;27;0
+148;Simba;Ave;4;f;Valle del Cauca;Tunja;Calle 61 # 43-20;Enfermo;30/12/2025;174000;23;2;9
+149;Daisy;Conejo;2;f;Cundinamarca;Cartagena;Calle 31 # 26-5;Enfermo;16/04/2025;343000;22;22;4
+150;Daisy;Ave;15;t;Antioquia;Tunja;Calle 22 # 18-17;Enfermo;22/01/2026;95000;3;22;24
+151;;Ave;6;t;Antioquia;Cali;Calle 10 # 14-37;Saludable;27/05/2025;428000;18;28;3
+152;Rocky;Perro;16;f;Santander;Cali;Calle 97 # 49-49;Enfermo;2/10/2025;341000;11;22;23
+153;Coco;Ave;6;f;Cundinamarca;Cali;Calle 66 # 17-31;Saludable;9/08/2025;115000;7;20;27
+154;Milo;Pez;5;t;Valle del Cauca;Cartagena;Calle 37 # 4-21;Saludable;14/08/2025;282000;18;19;4
+155;Milo;Gato;10;f;Boyaca;Barranquilla;Calle 25 # 4-29;Saludable;26/01/2026;230000;2;28;20
+156;Daisy;Conejo;13;f;Atlantico;Tunja;Calle 5 # 15-32;Enfermo;26/05/2025;387000;6;23;28
+157;;Conejo;13;t;;Bucaramanga;Calle 96 # 44-41;Saludable;22/05/2025;277000;4;1;15
+158;Luna;Pez;2;t;Bolivar;Cali;Calle 60 # 26-2;Saludable;30/04/2025;190000;13;6;22
+159;Milo;Pez;12;t;Santander;Barranquilla;Calle 12 # 10-24;Enfermo;14/04/2025;218000;7;11;6
+160;Rocky;Conejo;14;t;Magdalena;;Calle 66 # 10-44;Saludable;20/11/2025;426000;27;7;26
+161;Bella;Ave;6;f;Antioquia;;Calle 26 # 21-31;Enfermo;13/12/2025;214000;30;0;3
+162;Bella;Ave;12;t;Magdalena;Cali;Calle 16 # 7-3;Saludable;11/12/2025;160000;8;12;0
+163;Coco;Conejo;6;t;Cundinamarca;Barranquilla;Calle 51 # 21-44;Saludable;16/05/2025;248000;4;18;18
+164;Simba;;14;t;Boyaca;Cali;Calle 2 # 48-10;Saludable;7/11/2025;225000;16;8;27
+165;Buddy;Conejo;4;t;Magdalena;Cali;Calle 63 # 43-17;Enfermo;18/07/2025;463000;10;6;8
+166;Rocky;Conejo;14;t;Tolima;Bogota;Calle 88 # 19-8;Saludable;4/11/2025;457000;28;5;5
+167;Buddy;Pez;2;f;Cundinamarca;Bogota;Calle 55 # 34-20;Saludable;14/08/2025;100000;19;22;0
+168;Buddy;Gato;15;f;Atlantico;Barranquilla;Calle 46 # 24-47;Enfermo;20/07/2025;255000;16;28;18
+169;Rocky;;10;f;Cundinamarca;Cartagena;Calle 99 # 11-8;Saludable;13/07/2025;452000;11;0;11
+170;Charlie;Pez;8;t;Cundinamarca;Cartagena;Calle 85 # 27-46;Saludable;6/04/2026;497000;28;7;4
+171;Buddy;Conejo;8;f;Bolivar;Pereira;Calle 32 # 27-30;Saludable;25/12/2025;428000;23;10;30
+172;Max;Pez;10;f;Valle del Cauca;Pereira;Calle 61 # 9-44;Saludable;24/07/2025;287000;23;16;4
+173;Bella;Conejo;15;t;Magdalena;Bogota;Calle 13 # 50-22;Enfermo;14/09/2025;64000;23;3;12
+174;Luna;Gato;9;t;Bolivar;Tunja;Calle 67 # 27-31;Enfermo;12/05/2025;201000;15;16;11
+175;Daisy;Perro;6;f;Valle del Cauca;Bucaramanga;Calle 66 # 12-46;Saludable;30/11/2025;486000;15;14;4
+176;Simba;Pez;10;f;Santander;Bucaramanga;Calle 92 # 10-39;Saludable;7/08/2025;423000;9;25;23
+177;Luna;Conejo;13;t;Santander;Pereira;Calle 24 # 17-3;Saludable;4/12/2025;421000;11;0;11
+178;;;3;t;Tolima;Pereira;Calle 63 # 23-34;Saludable;3/08/2025;75000;8;12;21
+179;Max;Pez;4;f;Tolima;Bogota;Calle 23 # 16-21;Enfermo;31/03/2026;184000;11;27;28
+180;Coco;Gato;4;t;Tolima;Ibague;Calle 62 # 2-32;Saludable;13/12/2025;284000;3;16;2
+181;Charlie;Pez;12;t;Tolima;Tunja;Calle 30 # 4-4;Enfermo;3/12/2025;461000;24;7;25
+182;Milo;Gato;3;t;Risaralda;Cali;Calle 55 # 23-24;Enfermo;1/11/2025;290000;27;4;20
+183;Bella;Pez;3;f;Tolima;Bucaramanga;Calle 63 # 39-7;Saludable;1/02/2026;236000;12;29;9
+184;Simba;Conejo;13;f;Cundinamarca;Barranquilla;Calle 18 # 24-20;Saludable;8/05/2025;415000;1;25;8
+185;Charlie;Conejo;8;t;Risaralda;Tunja;Calle 99 # 20-36;Saludable;6/07/2025;316000;10;1;1
+186;Milo;Ave;7;t;Valle del Cauca;Bucaramanga;Calle 45 # 37-5;Saludable;27/10/2025;424000;16;10;12
+187;Bella;;12;t;Cundinamarca;Tunja;Calle 68 # 10-8;Saludable;5/07/2025;463000;20;14;1
+188;Daisy;Pez;15;f;Cundinamarca;Barranquilla;Calle 4 # 15-30;Saludable;4/04/2026;277000;2;30;28
+189;Buddy;Gato;6;t;Cundinamarca;Tunja;Calle 45 # 25-14;Saludable;24/08/2025;227000;12;30;4
+190;Milo;;3;t;Tolima;;Calle 51 # 29-20;Saludable;7/10/2025;309000;8;27;8
+191;Rocky;;8;f;Valle del Cauca;Cartagena;Calle 47 # 26-23;Saludable;25/11/2025;51000;0;9;10
+192;Bella;Ave;16;f;Valle del Cauca;Cali;Calle 19 # 34-37;Saludable;12/08/2025;283000;2;18;16
+193;Daisy;Ave;11;f;Santander;Pereira;Calle 22 # 47-27;Saludable;30/12/2025;102000;29;29;2
+194;Luna;Gato;10;t;Antioquia;Cartagena;Calle 33 # 29-4;Enfermo;8/01/2026;357000;10;19;2
+195;;;13;f;Santander;;Calle 74 # 18-19;Saludable;1/07/2025;122000;2;5;15
+196;Luna;Conejo;15;t;Valle del Cauca;Medellin;Calle 77 # 21-11;Enfermo;13/04/2025;440000;9;27;0
+197;Rocky;;1;t;Atlantico;Santa Marta;Calle 64 # 37-2;Saludable;21/06/2025;188000;0;15;22
+198;;Gato;10;t;Santander;Cartagena;Calle 40 # 42-42;Saludable;3/06/2025;226000;26;28;22
+199;Charlie;Ave;2;t;Magdalena;Bogota;Calle 1 # 13-29;Saludable;28/11/2025;120000;30;26;21
+200;Buddy;Gato;6;t;Bolivar;;Calle 17 # 46-19;Saludable;23/06/2025;450000;15;17;4
+201;Coco;Pez;12;t;Boyaca;Ibague;Calle 2 # 24-30;Saludable;22/08/2025;297000;5;15;28
+202;Charlie;;10;f;Valle del Cauca;Tunja;Calle 18 # 41-15;Saludable;25/01/2026;312000;26;30;25
+203;;Ave;4;t;Valle del Cauca;Pereira;Calle 85 # 22-51;Enfermo;25/11/2025;288000;29;3;26
+204;Luna;Perro;2;t;Magdalena;Bogota;Calle 56 # 22-37;Saludable;30/01/2026;358000;18;8;7
+205;Bella;Pez;3;f;Atlantico;Tunja;Calle 88 # 19-37;Saludable;16/11/2025;448000;29;8;14
+206;Simba;Pez;14;f;Cundinamarca;Ibague;Calle 97 # 6-50;Saludable;29/06/2025;70000;24;17;28
+207;Simba;Gato;9;t;Boyaca;Santa Marta;Calle 33 # 40-19;Saludable;25/08/2025;143000;12;18;26
+208;Buddy;Ave;14;t;Valle del Cauca;Barranquilla;Calle 75 # 10-51;Saludable;16/04/2025;400000;13;7;29
+209;;Conejo;11;f;Cundinamarca;Pereira;Calle 17 # 27-24;Saludable;15/02/2026;360000;7;19;1
+210;Bella;Conejo;13;f;Risaralda;Medellin;Calle 44 # 43-4;Saludable;31/10/2025;96000;30;8;20
+211;Simba;Gato;8;t;Atlantico;Cali;Calle 1 # 8-51;Enfermo;19/06/2025;201000;3;2;17
+212;Milo;Conejo;11;f;Tolima;Tunja;Calle 53 # 2-20;Saludable;31/12/2025;90000;13;3;0
+213;Max;;12;f;Magdalena;Barranquilla;Calle 84 # 43-42;Saludable;27/06/2025;197000;21;15;18
+214;Simba;Gato;14;t;Santander;Cali;Calle 82 # 3-27;Enfermo;15/11/2025;246000;23;11;11
+215;Coco;Gato;10;f;Boyaca;Bogota;Calle 69 # 23-21;Enfermo;11/08/2025;200000;27;10;26
+216;Bella;;8;f;Atlantico;Cali;Calle 95 # 10-40;Enfermo;7/05/2025;157000;28;4;19
+217;Rocky;Conejo;9;t;Magdalena;Barranquilla;Calle 63 # 30-29;Saludable;5/07/2025;391000;30;20;11
+218;Daisy;Pez;3;f;Atlantico;Ibague;Calle 72 # 12-28;Enfermo;28/04/2025;324000;11;20;28
+219;Luna;Pez;8;f;Valle del Cauca;Barranquilla;Calle 57 # 33-49;Saludable;29/06/2025;195000;10;2;11
+220;Daisy;Pez;14;f;Santander;Ibague;Calle 40 # 19-22;Saludable;20/09/2025;255000;28;5;29
+221;Buddy;Pez;3;f;;Cali;Calle 88 # 17-2;Saludable;23/11/2025;383000;6;24;28
+222;Luna;Gato;11;t;Santander;Cali;Calle 73 # 43-7;Saludable;24/08/2025;491000;6;28;10
+223;Buddy;Gato;10;f;Atlantico;Pereira;Calle 57 # 49-14;Saludable;26/03/2026;71000;22;4;4
+224;Daisy;Pez;12;t;Santander;Pereira;Calle 11 # 32-43;Saludable;9/04/2026;162000;16;16;8
+225;Charlie;Ave;2;f;Magdalena;;Calle 69 # 25-38;Enfermo;25/03/2026;201000;29;5;0
+226;Coco;Ave;12;f;Cundinamarca;Santa Marta;Calle 78 # 3-33;Saludable;6/05/2025;71000;19;19;9
+227;;Perro;6;t;Valle del Cauca;Bucaramanga;Calle 20 # 35-45;Enfermo;24/01/2026;366000;13;12;17
+228;Milo;Ave;2;t;Magdalena;Cali;Calle 70 # 44-20;Saludable;20/07/2025;82000;6;19;3
+229;Bella;Conejo;14;f;Bolivar;Pereira;Calle 64 # 29-9;Saludable;22/05/2025;403000;1;23;16
+230;Bella;Gato;15;f;Santander;Pereira;Calle 47 # 9-37;Saludable;26/07/2025;56000;3;17;4
+231;;Gato;4;f;Bolivar;Cali;Calle 26 # 42-3;Saludable;25/09/2025;87000;2;9;13
+232;;Gato;9;f;Valle del Cauca;Barranquilla;Calle 80 # 21-36;Enfermo;7/07/2025;387000;5;4;9
+233;Charlie;Conejo;11;f;Santander;Tunja;Calle 83 # 11-38;Saludable;1/05/2025;320000;20;20;5
+234;Buddy;;7;t;;Cali;Calle 69 # 10-18;Enfermo;2/07/2025;198000;2;7;29
+235;Charlie;Conejo;10;t;Santander;Cartagena;Calle 15 # 50-15;Saludable;14/07/2025;364000;10;22;29
+236;Coco;Ave;9;f;Tolima;Bucaramanga;Calle 27 # 38-3;Enfermo;5/11/2025;100000;19;22;27
+237;;Conejo;7;f;Atlantico;Ibague;Calle 94 # 10-36;Saludable;20/04/2025;293000;10;2;20
+238;Daisy;Perro;10;f;Bolivar;Medellin;Calle 98 # 3-47;Enfermo;26/08/2025;214000;17;4;17
+239;Luna;Pez;8;f;Valle del Cauca;Tunja;Calle 6 # 45-19;Saludable;24/07/2025;492000;20;12;2
+240;Daisy;Pez;4;f;Valle del Cauca;Ibague;Calle 67 # 32-11;Enfermo;20/11/2025;80000;11;12;16
+241;Simba;Gato;12;f;Antioquia;Santa Marta;Calle 40 # 35-47;Saludable;5/03/2026;352000;29;15;17
+242;Buddy;Gato;12;t;Tolima;Pereira;Calle 100 # 25-40;Saludable;28/09/2025;57000;5;24;15
+243;Bella;Ave;10;f;Tolima;Santa Marta;Calle 1 # 12-36;Enfermo;29/10/2025;224000;7;6;30
+244;Luna;Ave;3;t;Bolivar;Cartagena;Calle 32 # 10-14;Saludable;28/07/2025;86000;6;24;10
+245;Simba;Ave;15;t;Tolima;Tunja;Calle 73 # 5-34;Saludable;13/11/2025;493000;20;6;21
+246;Milo;Pez;3;t;Cundinamarca;Tunja;Calle 75 # 43-26;Enfermo;20/09/2025;188000;26;0;23
+247;Charlie;Pez;10;t;Magdalena;Ibague;Calle 15 # 9-21;Enfermo;7/11/2025;72000;4;24;2
+248;Charlie;Ave;12;f;Atlantico;Barranquilla;Calle 69 # 2-29;Saludable;18/10/2025;371000;20;3;18
+249;Simba;Pez;4;t;Magdalena;;Calle 18 # 9-1;Saludable;8/03/2026;215000;14;15;9
+250;;Conejo;11;f;Atlantico;Bogota;Calle 29 # 19-50;Saludable;5/09/2025;152000;12;11;19
+251;Luna;Conejo;10;t;Atlantico;Ibague;Calle 37 # 5-45;Saludable;25/10/2025;460000;9;15;18
+252;Charlie;Ave;11;t;Atlantico;Ibague;Calle 42 # 25-11;Saludable;9/06/2025;337000;6;17;4
+253;Luna;Perro;14;f;Risaralda;Santa Marta;Calle 47 # 20-47;Saludable;1/07/2025;290000;15;25;8
+254;Max;Ave;11;t;Risaralda;Barranquilla;Calle 27 # 17-28;Saludable;13/12/2025;356000;0;6;27
+255;Daisy;Gato;8;t;Cundinamarca;Pereira;Calle 43 # 41-44;Saludable;8/06/2025;110000;21;17;29
+256;Luna;Conejo;14;t;Santander;Tunja;Calle 56 # 31-22;Saludable;21/03/2026;274000;9;10;25
+257;Bella;Ave;12;t;Valle del Cauca;Tunja;Calle 81 # 2-22;Saludable;12/12/2025;329000;20;25;22
+258;Charlie;Gato;3;t;;Medellin;Calle 18 # 11-50;Saludable;3/08/2025;149000;25;20;28
+259;Rocky;Conejo;5;t;Boyaca;Ibague;Calle 51 # 13-8;Saludable;10/11/2025;494000;0;13;7
+260;Rocky;Gato;1;t;;Santa Marta;Calle 12 # 43-10;Saludable;1/12/2025;114000;9;16;9
+261;;Ave;10;f;Atlantico;Bucaramanga;Calle 52 # 11-31;Enfermo;24/09/2025;368000;0;21;3
+262;Max;Ave;12;t;Valle del Cauca;Bogota;Calle 100 # 51-31;Saludable;21/07/2025;221000;21;15;24
+263;Bella;Ave;8;t;Valle del Cauca;Ibague;Calle 38 # 45-32;Saludable;9/05/2025;402000;27;7;18
+264;Milo;Gato;14;t;Cundinamarca;;Calle 30 # 8-12;Enfermo;20/02/2026;286000;21;19;29
+265;Max;Perro;1;t;Antioquia;Bogota;Calle 17 # 38-20;Saludable;11/02/2026;485000;10;4;13
+266;Daisy;Ave;13;t;Risaralda;Santa Marta;Calle 34 # 25-41;Saludable;23/12/2025;196000;25;0;2
+267;Max;Gato;7;f;Valle del Cauca;Pereira;Calle 45 # 4-23;Saludable;28/02/2026;342000;26;17;17
+268;Daisy;Gato;4;t;Boyaca;Pereira;Calle 35 # 35-34;Saludable;27/08/2025;60000;15;26;7
+269;Daisy;Gato;8;t;Cundinamarca;Barranquilla;Calle 67 # 22-6;Enfermo;28/03/2026;95000;11;3;15
+270;Rocky;Ave;13;t;;Bogota;Calle 62 # 41-48;Saludable;31/10/2025;293000;27;17;20
+271;Charlie;Conejo;15;t;Atlantico;Santa Marta;Calle 60 # 12-6;Saludable;17/03/2026;329000;2;4;16
+272;Daisy;;13;t;Risaralda;Pereira;Calle 42 # 5-31;Enfermo;6/04/2026;170000;4;12;6
+273;Coco;Ave;10;f;Atlantico;Bogota;Calle 32 # 15-35;Enfermo;26/04/2025;473000;30;10;19
+274;Rocky;Ave;6;t;Valle del Cauca;Pereira;Calle 90 # 40-26;Saludable;3/12/2025;288000;25;27;23
+275;Coco;Pez;10;f;Valle del Cauca;Tunja;Calle 81 # 50-7;Enfermo;27/05/2025;63000;4;30;15
+276;Milo;Pez;12;f;Antioquia;Medellin;Calle 89 # 18-6;Enfermo;24/05/2025;483000;1;21;4
+277;Max;Gato;8;f;Magdalena;Bucaramanga;Calle 58 # 25-28;Enfermo;3/11/2025;120000;3;20;20
+278;Simba;Ave;5;t;Valle del Cauca;Cali;Calle 55 # 21-48;Saludable;18/12/2025;125000;18;11;1
+279;Bella;Ave;10;f;Antioquia;Medellin;Calle 33 # 10-19;Enfermo;7/06/2025;441000;26;4;7
+280;Max;;8;t;Bolivar;Barranquilla;Calle 14 # 5-14;Saludable;26/04/2025;308000;6;1;27
+281;Coco;;8;f;Valle del Cauca;Bogota;Calle 64 # 29-23;Enfermo;6/05/2025;372000;26;30;1
+282;Luna;Perro;16;t;Magdalena;Bucaramanga;Calle 91 # 1-28;Enfermo;24/02/2026;92000;27;30;30
+283;Coco;Ave;14;f;Risaralda;Bucaramanga;Calle 94 # 4-25;Saludable;6/10/2025;487000;24;27;19
+284;Luna;;8;f;Cundinamarca;Bucaramanga;Calle 47 # 32-9;Saludable;14/10/2025;111000;24;22;2
+285;Coco;Conejo;10;f;Magdalena;Cali;Calle 30 # 21-36;Saludable;16/05/2025;294000;11;2;19
+286;Rocky;Conejo;3;t;Valle del Cauca;Santa Marta;Calle 67 # 37-35;Enfermo;6/09/2025;214000;19;14;5
+287;Bella;Gato;5;t;Santander;Bogota;Calle 53 # 25-28;Saludable;2/06/2025;247000;7;3;25
+288;Rocky;Gato;4;t;Atlantico;Bucaramanga;Calle 74 # 51-37;Saludable;30/05/2025;436000;11;0;27
+289;Buddy;Gato;3;t;Valle del Cauca;Barranquilla;Calle 99 # 32-7;Enfermo;25/01/2026;165000;2;11;22
+290;Coco;Pez;3;t;Bolivar;Medellin;Calle 55 # 6-6;Saludable;22/09/2025;218000;11;18;24
+291;Simba;;10;t;Atlantico;Cali;Calle 6 # 19-8;Saludable;19/06/2025;127000;2;5;26
+292;Bella;Conejo;14;f;Atlantico;Pereira;Calle 15 # 8-17;Saludable;24/01/2026;418000;29;20;22
+293;Coco;;9;t;Boyaca;;Calle 69 # 35-20;Saludable;3/01/2026;154000;23;24;21
+294;Simba;Gato;7;f;Magdalena;Pereira;Calle 4 # 28-21;Saludable;15/12/2025;279000;10;12;4
+295;Max;;3;f;Valle del Cauca;Bogota;Calle 20 # 49-39;Saludable;26/05/2025;394000;21;12;28
+296;Charlie;;8;f;Risaralda;Bogota;Calle 72 # 43-25;Enfermo;10/02/2026;498000;15;2;11
+297;Milo;Ave;14;t;Magdalena;Cali;Calle 29 # 8-26;Saludable;5/06/2025;296000;13;15;3
+298;Coco;Ave;4;t;Magdalena;Cali;Calle 61 # 44-12;Enfermo;11/12/2025;99000;16;2;12
+299;Coco;Ave;6;f;Cundinamarca;Medellin;Calle 43 # 51-50;Enfermo;26/01/2026;246000;5;23;0
+300;Luna;Conejo;6;t;Valle del Cauca;Bucaramanga;Calle 87 # 20-16;Enfermo;29/10/2025;157000;7;2;4
+301;Milo;Conejo;13;t;Cundinamarca;Bogota;Calle 42 # 21-47;Enfermo;9/08/2025;478000;18;17;16
+302;Coco;Ave;1;t;Tolima;Cartagena;Calle 83 # 2-32;Saludable;30/10/2025;192000;18;0;25
+303;Coco;Ave;14;f;Cundinamarca;Tunja;Calle 80 # 22-40;Saludable;21/06/2025;240000;2;23;20
+304;Bella;Ave;16;t;Risaralda;Pereira;Calle 54 # 34-41;Enfermo;11/06/2025;446000;19;22;27
+305;Luna;Conejo;2;t;Santander;Cartagena;Calle 60 # 17-3;Saludable;22/09/2025;439000;3;27;2
+306;Daisy;Conejo;2;t;Risaralda;Pereira;Calle 29 # 10-46;Saludable;13/11/2025;479000;1;9;3
+307;Daisy;;9;t;Magdalena;Bucaramanga;Calle 61 # 29-6;Saludable;6/07/2025;421000;6;23;9
+308;Charlie;Gato;15;t;Valle del Cauca;Santa Marta;Calle 61 # 50-6;Enfermo;14/01/2026;193000;6;16;19
+309;Simba;Gato;2;f;Risaralda;Bogota;Calle 76 # 45-28;Saludable;14/08/2025;65000;15;25;27
+310;Milo;Pez;11;t;Risaralda;Barranquilla;Calle 86 # 6-15;Enfermo;3/02/2026;222000;18;12;25
+311;Luna;Conejo;12;f;Santander;Bucaramanga;Calle 38 # 26-43;Enfermo;7/10/2025;410000;1;30;17
+312;;Ave;1;t;Magdalena;Bucaramanga;Calle 66 # 3-17;Saludable;6/05/2025;76000;12;25;2
+313;;Pez;13;f;Cundinamarca;Bogota;Calle 59 # 19-32;Saludable;10/11/2025;212000;2;12;9
+314;Milo;Gato;2;t;Bolivar;Santa Marta;Calle 66 # 24-50;Saludable;6/01/2026;68000;9;28;19
+315;Milo;Perro;14;t;Tolima;Barranquilla;Calle 53 # 26-16;Saludable;25/06/2025;397000;10;0;19
+316;Milo;Conejo;9;f;Cundinamarca;Ibague;Calle 22 # 22-16;Saludable;13/08/2025;459000;29;2;4
+317;Buddy;;3;t;Atlantico;Tunja;Calle 100 # 50-18;Enfermo;16/05/2025;255000;17;15;11
+318;Daisy;Conejo;16;f;Atlantico;Ibague;Calle 98 # 32-36;Saludable;8/04/2026;358000;23;8;1
+319;Daisy;Perro;3;t;Risaralda;Bucaramanga;Calle 56 # 28-9;Saludable;6/11/2025;268000;14;18;5
+320;Daisy;Ave;4;f;Bolivar;Medellin;Calle 14 # 15-31;Enfermo;28/02/2026;307000;17;16;15
+321;Milo;Conejo;6;t;Risaralda;Bucaramanga;Calle 76 # 14-46;Saludable;31/07/2025;353000;17;12;24
+322;Daisy;Gato;3;f;Magdalena;;Calle 87 # 30-34;Saludable;6/07/2025;102000;20;15;20
+323;Daisy;Pez;10;f;Cundinamarca;;Calle 37 # 8-25;Enfermo;25/06/2025;181000;6;25;9
+324;Charlie;Conejo;15;f;Bolivar;Bucaramanga;Calle 94 # 19-3;Saludable;9/07/2025;218000;20;5;26
+325;Buddy;Gato;12;f;Valle del Cauca;Medellin;Calle 36 # 47-26;Saludable;26/05/2025;185000;26;26;1
+326;Simba;Gato;9;t;Cundinamarca;Tunja;Calle 45 # 34-16;Saludable;20/07/2025;263000;11;5;24
+327;Charlie;Conejo;5;f;Boyaca;Santa Marta;Calle 4 # 14-24;Saludable;16/06/2025;118000;21;1;19
+328;Bella;Conejo;7;f;Risaralda;;Calle 21 # 24-36;Saludable;9/01/2026;276000;17;6;23
+329;Coco;Gato;11;f;Tolima;Cartagena;Calle 81 # 29-9;Saludable;23/06/2025;173000;30;20;28
+330;Rocky;Ave;2;t;Tolima;Bucaramanga;Calle 54 # 36-49;Saludable;11/04/2025;465000;6;30;3
+331;Daisy;Ave;15;t;Tolima;Pereira;Calle 101 # 46-8;Saludable;20/03/2026;476000;10;28;18
+332;Daisy;Perro;11;f;Valle del Cauca;Cali;Calle 12 # 18-23;Saludable;18/04/2025;454000;3;6;9
+333;Charlie;Ave;9;t;Boyaca;Santa Marta;Calle 9 # 8-36;Saludable;28/02/2026;329000;27;11;28
+334;;Pez;12;t;Magdalena;Bogota;Calle 58 # 5-11;Saludable;12/05/2025;141000;3;2;15
+335;Daisy;Perro;13;t;Valle del Cauca;Bogota;Calle 55 # 46-20;Saludable;4/02/2026;198000;22;2;27
+336;Milo;Pez;7;t;Cundinamarca;Medellin;Calle 3 # 16-39;Saludable;18/09/2025;113000;3;14;14
+337;Rocky;Gato;13;t;Antioquia;Santa Marta;Calle 57 # 36-14;Saludable;21/10/2025;94000;3;27;3
+338;Luna;Gato;12;f;Bolivar;Barranquilla;Calle 82 # 15-35;Saludable;16/10/2025;462000;23;25;11
+339;Daisy;Perro;5;f;Risaralda;Bucaramanga;Calle 51 # 13-31;Saludable;15/02/2026;175000;7;0;21
+340;Simba;Pez;2;t;Boyaca;Bucaramanga;Calle 20 # 4-13;Saludable;23/10/2025;429000;13;5;7
+341;Rocky;Perro;7;t;Bolivar;Tunja;Calle 51 # 38-31;Saludable;12/08/2025;198000;27;30;8
+342;;Pez;8;t;Tolima;Barranquilla;Calle 17 # 45-20;Saludable;12/01/2026;79000;12;1;13
+343;Buddy;Conejo;10;f;Risaralda;Bucaramanga;Calle 23 # 29-49;Saludable;8/11/2025;499000;21;30;23
+344;Bella;Pez;14;t;Santander;Cali;Calle 87 # 12-13;Enfermo;2/10/2025;182000;19;25;23
+345;Rocky;Pez;10;f;Santander;Bucaramanga;Calle 63 # 49-34;Enfermo;24/10/2025;202000;10;12;23
+346;Simba;Perro;4;t;Tolima;Cartagena;Calle 2 # 15-13;Enfermo;21/07/2025;134000;11;0;1
+347;Buddy;Conejo;2;t;Cundinamarca;Tunja;Calle 7 # 28-26;Enfermo;5/08/2025;225000;30;26;10
+348;Luna;Conejo;6;t;Magdalena;Cali;Calle 88 # 33-31;Saludable;16/10/2025;352000;11;11;16
+349;;Conejo;6;f;Bolivar;Cali;Calle 32 # 30-47;Saludable;18/11/2025;94000;21;25;16
+350;Max;Pez;14;f;Tolima;Cartagena;Calle 69 # 5-43;Saludable;22/05/2025;102000;6;9;23
+351;Simba;Perro;4;t;Magdalena;Bucaramanga;Calle 17 # 5-13;Saludable;20/05/2025;162000;2;6;27
+352;Daisy;Pez;16;t;Boyaca;Barranquilla;Calle 33 # 15-7;Saludable;26/05/2025;68000;18;23;29
+353;Daisy;Conejo;7;f;Magdalena;Barranquilla;Calle 50 # 34-48;Saludable;10/03/2026;443000;28;30;11
+354;Milo;Gato;15;f;Risaralda;Barranquilla;Calle 55 # 3-33;Enfermo;30/11/2025;453000;18;23;4
+355;Simba;Ave;14;f;Tolima;Ibague;Calle 72 # 36-33;Enfermo;13/06/2025;435000;28;27;14
+356;Bella;Ave;12;f;;Medellin;Calle 53 # 40-1;Saludable;2/11/2025;175000;5;21;19
+357;Daisy;Conejo;13;t;Tolima;Santa Marta;Calle 38 # 48-48;Saludable;2/10/2025;310000;22;16;21
+358;Charlie;;12;t;Risaralda;Bucaramanga;Calle 52 # 43-9;Saludable;3/06/2025;402000;13;0;9
+359;Simba;Conejo;7;t;Cundinamarca;Cartagena;Calle 78 # 38-31;Enfermo;30/03/2026;77000;24;5;21
+360;Buddy;;1;t;Atlantico;Cartagena;Calle 98 # 7-36;Saludable;8/02/2026;82000;13;5;11
+361;Charlie;Pez;10;t;;Bogota;Calle 37 # 33-24;Saludable;15/02/2026;223000;20;12;25
+362;Luna;Ave;15;t;Santander;Cartagena;Calle 13 # 35-39;Enfermo;11/03/2026;450000;28;7;7
+363;Buddy;Pez;14;t;Tolima;;Calle 47 # 5-18;Enfermo;28/05/2025;329000;0;23;20
+364;Buddy;Pez;4;f;Cundinamarca;Pereira;Calle 85 # 29-37;Saludable;5/05/2025;298000;2;4;17
+365;Buddy;Perro;7;t;Risaralda;Bucaramanga;Calle 69 # 3-12;Enfermo;21/03/2026;176000;24;1;18
+366;Charlie;Pez;12;t;Santander;Cali;Calle 98 # 50-5;Saludable;2/08/2025;114000;28;18;15
+367;Milo;;13;t;Magdalena;Bogota;Calle 38 # 18-48;Saludable;10/04/2025;98000;12;3;5
+368;Simba;Pez;15;t;Tolima;Barranquilla;Calle 22 # 38-3;Saludable;24/04/2025;231000;9;5;11
+369;Charlie;Pez;11;f;;Santa Marta;Calle 34 # 3-18;Enfermo;14/12/2025;345000;30;14;12
+370;Daisy;Ave;3;f;;Cartagena;Calle 16 # 46-7;Saludable;6/05/2025;329000;8;14;30
+371;Max;;9;t;Valle del Cauca;;Calle 30 # 38-18;Saludable;6/08/2025;116000;26;3;25
+372;Milo;Conejo;11;f;Santander;Cali;Calle 4 # 25-2;Enfermo;6/09/2025;295000;23;10;21
+373;Rocky;;13;t;Risaralda;Barranquilla;Calle 98 # 15-34;Saludable;25/11/2025;137000;8;18;26
+374;Bella;Conejo;4;f;Cundinamarca;Cali;Calle 20 # 42-11;Enfermo;11/06/2025;315000;28;15;10
+375;Bella;Gato;8;f;Santander;Cartagena;Calle 38 # 1-33;Enfermo;22/01/2026;160000;7;6;5
+376;Luna;Conejo;2;f;Magdalena;Bucaramanga;Calle 94 # 16-35;Saludable;31/03/2026;100000;19;21;9
+377;Charlie;Pez;8;t;Atlantico;Ibague;Calle 78 # 11-46;Enfermo;8/07/2025;493000;2;16;11
+378;Milo;Conejo;1;t;Antioquia;Cali;Calle 21 # 20-39;Saludable;2/09/2025;61000;25;15;29
+379;Buddy;;15;t;Boyaca;Barranquilla;Calle 4 # 43-26;Saludable;9/05/2025;205000;30;17;21
+380;Milo;Gato;7;f;Magdalena;Bucaramanga;Calle 80 # 27-38;Enfermo;31/01/2026;161000;6;5;26
+381;Buddy;Gato;8;t;Boyaca;;Calle 2 # 9-37;Saludable;22/05/2025;375000;6;10;12
+382;Luna;Gato;15;f;Magdalena;Pereira;Calle 22 # 24-6;Saludable;31/10/2025;271000;27;5;7
+383;Buddy;Ave;11;t;Atlantico;Bogota;Calle 23 # 18-38;Saludable;20/07/2025;125000;16;20;18
+384;Max;Gato;11;t;Bolivar;Ibague;Calle 42 # 13-20;Saludable;4/05/2025;499000;0;13;4
+385;Coco;Conejo;12;t;Cundinamarca;Medellin;Calle 77 # 33-38;Saludable;10/07/2025;498000;28;28;19
+386;Buddy;Gato;6;f;Boyaca;Cali;Calle 24 # 44-6;Saludable;23/04/2025;86000;3;1;19
+387;Simba;Ave;8;f;Cundinamarca;Medellin;Calle 11 # 23-37;Enfermo;28/02/2026;242000;24;6;2
+388;Buddy;Gato;16;t;Magdalena;Ibague;Calle 52 # 47-42;Saludable;23/03/2026;78000;1;28;15
+389;Daisy;Conejo;15;t;Santander;Tunja;Calle 8 # 40-31;Enfermo;14/05/2025;437000;12;17;16
+390;Simba;Pez;12;t;Cundinamarca;Santa Marta;Calle 51 # 28-24;Saludable;9/02/2026;392000;5;23;29
+391;Milo;Pez;5;f;Risaralda;Tunja;Calle 64 # 25-23;Saludable;12/10/2025;258000;9;17;24
+392;Coco;Pez;1;f;Tolima;Bogota;Calle 60 # 30-21;Saludable;27/10/2025;248000;25;5;2
+393;Daisy;Conejo;7;t;Magdalena;Santa Marta;Calle 91 # 41-31;Saludable;20/07/2025;440000;16;11;24
+394;Simba;Gato;12;f;Tolima;Bogota;Calle 12 # 37-20;Saludable;30/04/2025;206000;5;8;6
+395;Max;Conejo;10;t;Cundinamarca;Medellin;Calle 16 # 46-23;Enfermo;5/02/2026;449000;30;9;5
+396;Rocky;Conejo;9;t;Tolima;Cali;Calle 81 # 45-19;Saludable;5/11/2025;280000;18;25;8
+397;Charlie;Pez;6;f;;Barranquilla;Calle 19 # 50-20;Saludable;2/02/2026;263000;0;26;20
+398;Daisy;Perro;12;f;Santander;Pereira;Calle 91 # 14-13;Saludable;24/06/2025;159000;6;11;29
+399;Luna;Ave;12;f;Bolivar;Pereira;Calle 53 # 7-22;Enfermo;15/09/2025;252000;29;6;27
+400;Buddy;Conejo;2;t;Boyaca;;Calle 82 # 6-32;Saludable;4/03/2026;156000;5;4;21
+401;Milo;;16;t;;Ibague;Calle 27 # 51-28;Saludable;11/04/2025;437000;11;14;19
+402;Milo;Gato;13;f;Valle del Cauca;Ibague;Calle 91 # 30-6;Saludable;21/10/2025;459000;23;10;13
+403;Milo;Conejo;6;t;Atlantico;;Calle 81 # 51-41;Saludable;23/05/2025;231000;9;14;15
+404;;Ave;5;f;Santander;Cartagena;Calle 90 # 24-47;Enfermo;20/02/2026;213000;3;11;22
+405;;Gato;15;t;Antioquia;Santa Marta;Calle 5 # 41-25;Saludable;29/09/2025;248000;16;19;8
+406;Daisy;Conejo;6;t;Magdalena;Cali;Calle 48 # 23-4;Saludable;11/11/2025;127000;2;26;3
+407;Milo;Pez;1;f;Risaralda;Cartagena;Calle 42 # 29-6;Saludable;15/09/2025;444000;23;2;25
+408;Simba;Gato;15;f;Tolima;Bucaramanga;Calle 11 # 39-34;Enfermo;14/07/2025;382000;28;3;7
+409;;Ave;4;f;Risaralda;Medellin;Calle 23 # 9-26;Saludable;7/06/2025;245000;6;13;19
+410;Simba;Pez;15;f;Bolivar;Ibague;Calle 65 # 41-37;Saludable;30/03/2026;449000;26;25;15
+411;Rocky;Ave;16;t;Tolima;Pereira;Calle 14 # 10-40;Saludable;28/01/2026;374000;23;5;18
+412;Luna;Ave;10;t;Tolima;Cartagena;Calle 91 # 10-43;Saludable;3/11/2025;58000;3;13;21
+413;Bella;Gato;2;f;Valle del Cauca;Santa Marta;Calle 78 # 40-35;Enfermo;12/11/2025;252000;4;18;28
+414;Buddy;Perro;9;t;Antioquia;Barranquilla;Calle 31 # 9-34;Enfermo;18/10/2025;417000;29;11;16
+415;Daisy;Gato;11;t;;Cali;Calle 25 # 28-43;Enfermo;9/10/2025;464000;25;9;25
+416;Milo;Pez;10;f;Cundinamarca;Santa Marta;Calle 98 # 17-7;Saludable;13/12/2025;273000;10;20;12
+417;Daisy;Perro;9;t;Santander;Tunja;Calle 19 # 35-49;Enfermo;2/03/2026;126000;8;29;30
+418;Daisy;Pez;2;t;Boyaca;Tunja;Calle 21 # 27-32;Saludable;24/02/2026;308000;15;25;2
+419;Rocky;Conejo;12;t;Bolivar;Pereira;Calle 81 # 15-46;Saludable;1/01/2026;191000;25;22;22
+420;Rocky;Conejo;10;f;Bolivar;Pereira;Calle 79 # 4-33;Enfermo;22/04/2025;224000;14;26;17
+421;Buddy;Conejo;1;t;Bolivar;Barranquilla;Calle 69 # 9-7;Saludable;23/09/2025;85000;5;15;10
+422;Milo;Conejo;11;t;Tolima;Medellin;Calle 71 # 5-13;Saludable;1/06/2025;417000;17;8;15
+423;Rocky;Gato;2;f;Boyaca;Tunja;Calle 64 # 6-51;Saludable;25/01/2026;225000;30;3;18
+424;Bella;Perro;15;f;Antioquia;Cartagena;Calle 23 # 14-5;Enfermo;27/05/2025;201000;14;29;6
+425;Buddy;Conejo;10;f;Magdalena;Medellin;Calle 27 # 44-30;Saludable;3/04/2026;179000;11;28;16
+426;Milo;Pez;3;f;Cundinamarca;Barranquilla;Calle 56 # 2-36;Saludable;29/03/2026;399000;3;30;16
+427;Daisy;Conejo;1;f;Cundinamarca;Medellin;Calle 5 # 26-6;Saludable;18/01/2026;125000;22;17;21
+428;Milo;Pez;2;f;Tolima;Cartagena;Calle 51 # 31-14;Saludable;12/11/2025;284000;27;4;24
+429;Max;Conejo;3;t;Risaralda;Bucaramanga;Calle 97 # 51-36;Saludable;30/03/2026;220000;3;25;29
+430;Milo;Ave;11;f;Santander;Barranquilla;Calle 13 # 37-34;Saludable;22/12/2025;93000;6;8;23
+431;Bella;Gato;2;f;Tolima;Cartagena;Calle 51 # 7-32;Enfermo;1/01/2026;475000;14;21;24
+432;Daisy;Ave;4;t;Cundinamarca;Tunja;Calle 34 # 13-37;Saludable;6/08/2025;489000;18;5;5
+433;Rocky;Conejo;2;f;;Tunja;Calle 31 # 33-20;Saludable;3/11/2025;101000;14;21;10
+434;Max;Conejo;15;t;Cundinamarca;Cali;Calle 57 # 7-19;Saludable;27/11/2025;178000;25;11;27
+435;Luna;Conejo;2;t;Bolivar;Bogota;Calle 16 # 15-23;Saludable;10/04/2026;215000;10;17;23
+436;Buddy;Perro;7;f;Valle del Cauca;Medellin;Calle 26 # 31-46;Saludable;9/11/2025;154000;14;29;26
+437;Luna;Gato;12;f;Tolima;;Calle 81 # 31-38;Saludable;3/05/2025;148000;13;18;6
+438;Luna;Conejo;10;f;Bolivar;Cartagena;Calle 75 # 44-14;Saludable;19/11/2025;413000;3;14;20
+439;Milo;Pez;3;t;Magdalena;Medellin;Calle 25 # 43-47;Enfermo;4/03/2026;344000;18;17;6
+440;Buddy;Ave;12;f;Valle del Cauca;Cartagena;Calle 42 # 6-21;Saludable;11/05/2025;350000;22;19;16
+441;Coco;;15;f;Bolivar;Cali;Calle 27 # 9-30;Enfermo;1/10/2025;176000;20;29;10
+442;Buddy;Gato;3;f;Atlantico;Bucaramanga;Calle 28 # 39-50;Enfermo;30/11/2025;58000;22;2;5
+443;Bella;Pez;10;t;Tolima;Cali;Calle 29 # 24-49;Saludable;9/10/2025;236000;22;5;18
+444;Daisy;;7;f;Bolivar;Ibague;Calle 39 # 14-2;Enfermo;3/08/2025;213000;19;14;12
+445;Coco;;3;t;Tolima;Tunja;Calle 3 # 10-48;Saludable;16/12/2025;247000;19;26;20
+446;Luna;Gato;7;t;Santander;Cartagena;Calle 84 # 39-29;Enfermo;23/02/2026;345000;27;15;3
+447;Daisy;Perro;7;t;Valle del Cauca;Ibague;Calle 86 # 12-49;Saludable;7/02/2026;421000;8;1;2
+448;Max;Gato;2;t;;Cali;Calle 17 # 41-29;Saludable;10/09/2025;412000;15;28;8
+449;Daisy;Pez;3;f;Santander;Bucaramanga;Calle 26 # 37-18;Saludable;3/05/2025;275000;26;23;25
+450;Luna;;16;f;Risaralda;Barranquilla;Calle 38 # 36-20;Saludable;29/06/2025;56000;20;16;22
+451;Daisy;Conejo;1;f;Boyaca;Barranquilla;Calle 59 # 28-42;Saludable;31/05/2025;313000;8;9;30
+452;Simba;Pez;13;t;Atlantico;Pereira;Calle 41 # 17-9;Enfermo;4/09/2025;471000;10;26;21
+453;Luna;Gato;15;t;Magdalena;Barranquilla;Calle 80 # 44-28;Enfermo;4/11/2025;479000;23;0;18
+454;Luna;Gato;5;f;Atlantico;Ibague;Calle 40 # 29-3;Saludable;14/12/2025;232000;25;6;24
+455;Rocky;Conejo;8;t;Antioquia;Tunja;Calle 40 # 40-46;Saludable;5/01/2026;371000;0;14;14
+456;Charlie;Perro;16;t;Bolivar;Cali;Calle 99 # 36-44;Saludable;26/01/2026;76000;3;25;29
+457;Milo;;10;t;Atlantico;Medellin;Calle 44 # 11-41;Enfermo;14/12/2025;106000;30;1;22
+458;Rocky;Ave;7;t;Antioquia;Ibague;Calle 1 # 22-46;Saludable;29/04/2025;335000;24;17;6
+459;Milo;;2;t;Bolivar;Bogota;Calle 72 # 34-11;Saludable;1/12/2025;396000;21;22;7
+460;Luna;Ave;12;t;Boyaca;Cali;Calle 83 # 25-22;Saludable;20/11/2025;272000;23;7;9
+461;Luna;Conejo;8;f;Cundinamarca;Ibague;Calle 36 # 34-17;Saludable;18/11/2025;177000;1;28;23
+462;Daisy;Ave;15;t;Risaralda;Cartagena;Calle 27 # 11-2;Enfermo;7/02/2026;106000;15;27;9
+463;Max;Perro;12;f;Valle del Cauca;Bogota;Calle 33 # 13-14;Enfermo;3/05/2025;113000;22;15;2
+464;Bella;;14;f;Boyaca;;Calle 11 # 18-36;Saludable;9/01/2026;247000;28;1;25
+465;Simba;Ave;9;t;Santander;Tunja;Calle 55 # 46-9;Saludable;10/05/2025;182000;9;7;20
+466;Coco;Ave;10;f;Tolima;Bogota;Calle 96 # 33-36;Saludable;11/09/2025;79000;27;15;5
+467;Milo;;13;f;Bolivar;Cali;Calle 82 # 47-25;Saludable;26/02/2026;71000;5;30;24
+468;Buddy;Gato;5;t;Atlantico;Bogota;Calle 60 # 21-9;Saludable;2/12/2025;230000;11;10;18
+469;Coco;Gato;14;t;Risaralda;Bucaramanga;Calle 93 # 9-13;Saludable;24/11/2025;148000;15;10;23
+470;Luna;Perro;10;t;Valle del Cauca;Bucaramanga;Calle 33 # 19-42;Saludable;9/03/2026;224000;9;28;27
+471;Bella;Gato;12;f;Atlantico;Tunja;Calle 56 # 43-25;Saludable;28/12/2025;72000;14;24;6
+472;Charlie;;11;f;Magdalena;Cali;Calle 41 # 49-5;Saludable;9/04/2026;324000;21;5;29
+473;Daisy;Perro;3;f;Risaralda;Ibague;Calle 18 # 37-23;Enfermo;12/07/2025;303000;12;1;23
+474;Charlie;Ave;6;t;Magdalena;;Calle 71 # 35-39;Saludable;30/05/2025;301000;8;8;14
+475;Charlie;Ave;8;t;Risaralda;Bogota;Calle 94 # 23-40;Enfermo;24/04/2025;188000;18;0;23
+476;Buddy;Gato;16;t;Boyaca;Medellin;Calle 84 # 16-1;Saludable;29/10/2025;278000;15;0;15
+477;Bella;Pez;7;t;Boyaca;Bogota;Calle 16 # 31-43;Saludable;26/07/2025;348000;0;3;9
+478;;Conejo;4;t;Risaralda;;Calle 38 # 36-7;Saludable;28/02/2026;200000;28;26;20
+479;Buddy;Conejo;2;t;Cundinamarca;Cartagena;Calle 29 # 10-49;Saludable;24/05/2025;300000;23;22;30
+480;Bella;Gato;9;f;Tolima;Bogota;Calle 57 # 32-36;Saludable;18/09/2025;86000;20;22;23
+481;Coco;Conejo;6;f;Antioquia;Santa Marta;Calle 61 # 6-31;Saludable;1/08/2025;276000;21;1;25
+482;Daisy;Pez;5;f;Santander;Pereira;Calle 37 # 9-39;Saludable;28/09/2025;361000;28;0;27
+483;Luna;Gato;8;t;Cundinamarca;Medellin;Calle 7 # 50-24;Saludable;5/10/2025;263000;2;30;11
+484;Coco;Ave;6;t;Atlantico;Bogota;Calle 80 # 26-42;Saludable;27/06/2025;488000;12;15;0
+485;Coco;Ave;7;t;Boyaca;Barranquilla;Calle 61 # 6-42;Saludable;30/06/2025;428000;27;30;0
+486;Milo;;12;t;Atlantico;Medellin;Calle 44 # 46-25;Enfermo;5/05/2025;478000;27;18;11
+487;Milo;Conejo;7;t;Boyaca;Barranquilla;Calle 59 # 30-24;Enfermo;30/12/2025;489000;18;14;9
+488;Daisy;Conejo;10;f;Bolivar;Cali;Calle 16 # 50-29;Saludable;4/12/2025;412000;13;30;12
+489;Daisy;Perro;15;t;Bolivar;Bogota;Calle 8 # 37-37;Saludable;1/01/2026;91000;23;14;9
+490;Daisy;Ave;11;f;Risaralda;Pereira;Calle 25 # 18-46;Saludable;8/02/2026;454000;4;8;30
+491;Charlie;Ave;12;t;Bolivar;Tunja;Calle 73 # 45-26;Saludable;11/07/2025;477000;25;8;10
+492;Rocky;Perro;16;f;Magdalena;;Calle 53 # 49-16;Saludable;19/04/2025;482000;3;14;18
+493;Luna;Pez;14;t;Cundinamarca;;Calle 52 # 18-42;Saludable;3/02/2026;476000;25;23;26
+494;Coco;Conejo;7;t;Tolima;Bogota;Calle 89 # 4-27;Saludable;26/04/2025;305000;18;10;10
+495;Milo;Conejo;15;t;Valle del Cauca;Bogota;Calle 97 # 8-20;Enfermo;15/05/2025;98000;27;9;4
+496;Simba;Pez;4;t;Risaralda;Cali;Calle 77 # 22-51;Saludable;29/01/2026;431000;6;24;15
+497;Rocky;Ave;6;t;Atlantico;Cartagena;Calle 81 # 46-51;Enfermo;19/08/2025;245000;11;0;4
+498;Charlie;Pez;4;t;Santander;Bucaramanga;Calle 29 # 9-35;Saludable;13/10/2025;305000;17;22;29
+499;Daisy;Ave;3;t;Risaralda;Santa Marta;Calle 97 # 10-13;Saludable;31/07/2025;116000;9;15;30
+500;Milo;Ave;15;t;Bolivar;Bogota;Calle 40 # 11-25;Saludable;20/01/2026;171000;0;17;1

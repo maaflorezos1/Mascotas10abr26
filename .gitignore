@@ -207,6 +207,5 @@ marimo/_lsp/
 __marimo__/
 
 
-#Vamos a ignorar la base de datos
-mascotas_completa.csv
+
 
